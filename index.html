@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Secloop</title>
+  <script src='http://w.soundcloud.com/player/api.js'></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+  <script src="build/angular-slider.min.js"></script>-->
+  <script src='script.js'></script>
+  <script src='slider.js'></script>
+</head>
+
+<body>
+  <div>
+    <iframe id="soundcloud_widget"
+      src="http://w.soundcloud.com/player/?url=https://soundcloud.com/oshimakesmusic/mustard&auto_play=true"
+      width="420"
+      height="120"
+      frameborder="no">
+    </iframe>
+  </div>
+
+  <div id="slider-range"></div>
+
+  <div>
+    Start: 
+    <input id="startNumber" type="number"/> <!--value="6000"/>-->
+    Stop: 
+    <input id="endNumber" type="number"/> <!--value="34000"/>-->
+  </div>
+</body>
+
+</html>
