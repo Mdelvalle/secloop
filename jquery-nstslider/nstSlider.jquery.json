@@ -1,0 +1,41 @@
+{
+  "name": "nstSlider",
+  "title": "Nestoria Slider",
+  "description": "Fully customizable range sliders, Single/Double handles, Touch-enabled, and much more",
+  "version": "1.0.10",
+  "homepage": "http://lokku.github.io/jquery-nstslider/",
+  "demo": "http://lokku.github.io/jquery-nstslider/",
+  "author": {
+    "name": "Savio Dimatteo",
+    "email": "darksmo@gmail.com",
+    "url": "http://www.savio.dimatteo.it",
+    "company": "Lokku Ltd."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokku/jquery-nstslider.git"
+  },
+  "bugs": "https://github.com/lokku/jquery-nstslider/issues",
+  "docs": "https://github.com/lokku/jquery-nstslider",
+  "download": "http://github.com/lokku/jquery-nstslider/zipball/master/dist",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://lokku.github.io/jquery-nstslider//blob/master/LICENCE"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.6.4"
+  },
+  "keywords": [
+    "ui",
+    "accessible",
+    "range slider",
+    "slider",
+    "values",
+    "select",
+    "control",
+    "nestoria",
+    "widget"
+  ]
+}

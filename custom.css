@@ -1,0 +1,9 @@
+.label {
+  position: relative;
+}
+.leftLabel, .rightLabel {
+  position: absolute;
+}
+.rightLabel {
+  text-indent: 270px;
+}
