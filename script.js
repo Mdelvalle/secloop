@@ -4,13 +4,7 @@
  *
  */
 
-/*
- * FIND OUT HOW TO INITIALIZE EVERYTHING
- * AFTER THE WIDGET IS READY
- *
- */
-
-function load() {
+ window.onload = function() {
   var widget = SC.Widget(document.getElementById('soundcloud_widget'));
   var songDuration = 0;
 
@@ -24,6 +18,7 @@ function load() {
 
   var startPos = 0;
   var endPos = 0;
+
   // Initialize nstSlider class attributes
   widgetReady.then(function () {
     var durationReady = new Promise(function(resolve, reject) {
@@ -72,6 +67,4 @@ function load() {
       widget.play();
     }
   });
-}
-
-window.onload = load;
+};
