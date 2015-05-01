@@ -1,9 +1,16 @@
+.nstSlider {
+  width: 80%;
+  background: #ff3300;
+}
 .label {
   position: relative;
 }
 .leftLabel, .rightLabel {
   position: absolute;
 }
+.leftLabel {
+  text-indent: 10%;
+}
 .rightLabel {
-  text-indent: 270px;
+  text-indent: 80%;
 }

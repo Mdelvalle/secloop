@@ -5,7 +5,9 @@
  */
 
 window.onload = function() {
-  var widget = SC.Widget(document.getElementById('soundcloud_widget'));
+  var iframe = document.getElementById('soundcloud_widget');
+  iframe.src = localStorage.getItem('url');
+  var widget = SC.Widget(iframe);
   var songDuration = 0;
 
   // The Soundcloud widget has loaded.
