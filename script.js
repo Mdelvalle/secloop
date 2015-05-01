@@ -4,7 +4,7 @@
  *
  */
 
- window.onload = function() {
+window.onload = function() {
   var widget = SC.Widget(document.getElementById('soundcloud_widget'));
   var songDuration = 0;
 

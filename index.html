@@ -1,38 +1,25 @@
 <!DOCTYPE html>
+
 <html>
 
-<head>
-  <title>Secloop</title>
-  <link type="text/css" rel="stylesheet" href="jquery-nstslider/dist/jquery.nstSlider.css">
-  <link type="text/css" rel="stylesheet" href="custom.css">
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="jquery-nstslider/dist/jquery.nstSlider.min.js"></script>
-  <script src='http://w.soundcloud.com/player/api.js'></script>
-  <script src='script.js'></script>
-</head>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-<body>
-  <div>
-    <iframe id="soundcloud_widget"
-      src="http://w.soundcloud.com/player/?url=https://soundcloud.com/nickraymondg/dj-craze-troyboi-baby-gurl-premiere&auto_play=false"
-      width="420"
-      height="120"
-      frameborder="no">
-    </iframe>
-  </div>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 
-  <br>
+    <script src="sc-url.js"></script>
 
-  <div class="nstSlider">
-    <div class="bar"></div>
-    <div class="leftGrip"></div>
-    <div class="rightGrip"></div>
-  </div>
+    <title>Secloop by Mdelvalle</title>
+  </head>
 
-  <div class="label">
-    <div class="leftLabel"></div>
-    <div class="rightLabel"></div>
-  </div>
-</body>
-
+  <body>
+    <div align="center">
+      <h1>SECLOOP</h1>
+      <form action="secloop.html">
+        <input type="text" id="userInput" placeholder="Soundcloud URL">
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
 </html>

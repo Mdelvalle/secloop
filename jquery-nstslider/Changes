@@ -1,0 +1,39 @@
+v1.0.11 Thu Apr  9 08:02:17 CEST 2015
+    * Use outerWidth() to calculate width of handles (see https://github.com/lokku/jquery-nstslider/issues/18)
+    * Stop calling preventDefault on touch events
+
+v1.0.10 Sun Feb  8 23:49:57 CET 2015
+    * Fix bug in histogram based increment steps (see https://github.com/lokku/jquery-nstslider/commit/260f908a7e47d18532b594d6d673a561bc5de947)
+
+v1.0.9 Fri Jan 23 23:41:56 CET 2015
+    * crossable_handles feature (see https://github.com/lokku/jquery-nstslider/issues/16)
+    * fix imprecise slider movement when IE zoom is enabled (see https://github.com/lokku/jquery-nstslider/issues/17)
+    * fix slider grip being dragged when mouse hits against its rightmost edge
+
+v1.0.8 Mon Oct 27 21:33:36 CET 2014
+    * public value_to_px method to (see pull request at https://github.com/lokku/jquery-nstslider/pull/15)
+
+v1.0.7 Sat Jul 26 11:18:08 CEST 2014
+    * fix issue #12: correctly handle mouseup events with multiple sliders
+
+v1.0.6 Tue Jul 15 09:00:05 CEST 2014
+    * fix issue #11: calculate slider range correctly for histogram based slider
+
+v1.0.5 Mon Jul 14 18:07:45 CEST 2014
+    * fix issue #9: text on the page selected while dragging the slider
+
+v1.0.4 Thu Jun 12 11:25:36 CEST 2014
+    * fix issue #8: floating point array lookup
+
+v1.0.3 Mon Jun  9 11:55:12 CEST 2014
+    * improve support for single slider without value bar for touch devices
+
+v1.0.2 Fri May  2 23:43:19 BST 2014
+    * added keyboard support
+    * aria attributes for accessibility
+    * fixed infinite loop bug on set_histogram_step call
+    * fixed right single handle going through the slider
+    * highlight bar can now be clicked and handles will be moved
+
+v1.0.1 Fri Apr 25 02:31:33 CEST 2014
+    * first release

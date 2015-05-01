@@ -1,0 +1,36 @@
+{
+  "name": "nstSlider",
+  "version": "1.0.10",
+  "main": [
+    "./dist/jquery.nstSlider.js"
+  ],
+  "ignore": [
+    ".jshintrc",
+    ".gitignore",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "homepage": "http://lokku.github.io/jquery-nstslider/",
+  "authors": [
+    "Savio Dimatteo <darksmo@gmail.com>"
+  ],
+  "description": "Nestoria Slider jQuery Plugin",
+  "keywords": [
+    "ui",
+    "range",
+    "slider",
+    "values",
+    "select",
+    "control",
+    "nestoria",
+    "widget"
+  ],
+  "license": "MIT"
+}
