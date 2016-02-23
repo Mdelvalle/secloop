@@ -1,16 +1,25 @@
+body {
+  background-color: #ff3300;
+  color: #00ccff; }
+
+#soundcloud_widget {
+  padding-top: 100px; }
+
 .nstSlider {
   width: 80%;
   background: #ff3300;
-}
+  border: 3px solid #00ccff; }
+
 .label {
   position: relative;
-}
+  font-size: 2em; }
+
 .leftLabel, .rightLabel {
-  position: absolute;
-}
+  position: absolute; }
+
 .leftLabel {
   text-indent: 10%;
-}
+   }
+
 .rightLabel {
-  text-indent: 80%;
-}
+  text-indent: 80%; }

@@ -46,12 +46,30 @@ window.onload = function() {
           startPos = leftValue;
           endPos = rightValue;
 
-          $('.leftLabel').text(leftValue);
-          $('.rightLabel').text(rightValue);
+          $('.leftLabel').text(msToTime(startPos));
+          $('.rightLabel').text(msToTime(endPos));
         }
       });
     });
   });
+
+  function msToTime(duration) {
+
+    var milliseconds = parseInt((duration%1000)/100)
+    var seconds = parseInt((duration/1000)%60)
+    var minutes = parseInt((duration/(1000*60))%60)
+    var hours = parseInt((duration/(1000*60*60))%24);
+
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    if (hours !== '00') {
+      return hours + ":" + minutes + ":" + seconds + "." + milliseconds;
+    } else {
+      return minutes + ":" + seconds + "." + milliseconds;
+    }
+  }
 
 
   // When the Soundcloud widget has started to play

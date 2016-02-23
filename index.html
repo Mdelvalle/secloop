@@ -14,11 +14,15 @@
   </head>
 
   <body>
-    <div align="center">
+    <div id ="content">
       <h1>SECLOOP</h1>
+      <div id="info">
+        <p>Loop any Soundcloud song from start to finish, or if you wish, just a section.</p>
+        <p>All you have to do is supply the Soundcloud URL:</p>
+      </div>
       <form action="secloop.html" name="formName">
-        <input type="text" id="userInput" placeholder="Soundcloud URL" name="inputName">
-        <button onClick="SCUrl()">Submit</button>
+        <input type="text" id="userInput" placeholder="https://soundcloud.com/" name="inputName">
+        <button id="submit" onClick="SCUrl()">Submit</button>
       </form>
     </div>
   </body>

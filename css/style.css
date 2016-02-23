@@ -1,3 +1,73 @@
+body {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #ff3300;
+  color: #89e7ff;
+  font-family: sans-serif; }
+
+#content {
+  margin: 30px;;
+  padding: 0;
+  height: 1000px;
+  text-align: center; }
+
 h1 {
-  color: #ff3300;
+  font-size: 10em; }
+
+#info {
+  padding: 0px 130px;
+  font-size: 3em; }
+
+form {
+  position: relative;
+  margin: auto;
+  padding: auto;
+  height: 300px;
+  width: 700px; }
+
+#userInput {
+  margin-top: 20px;
+  padding: 10px;
+  height: 60px;
+  width: 600px;
+  font-size: 3em;
+  background-color: #d8f7ff;
+  color: #006e89;
+  text-align: center; }
+
+#submit {
+  margin-top: 100px;
+  height: 90px;
+  width: 140px;
+  font-size: 2.3em;
+  background-color: #ff3300;
+  color: #89e7ff;
+  border: 5px solid #89e7ff; }
+
+
+@media (min-width: 1000px) {
+
+  h1 {
+    margin: 0;
+    padding: 0; }
+
+  #content {
+    margin: 30px;
+    height: 100px; }
+  
+  form {
+    height: 250px; }
+
+  #info {
+    padding: 0px 200px;
+    font-size: 1.5em; }
+  
+  #submit {
+    margin-top: 30px; }
+    #submit:hover {
+     height: 100px;
+     width: 150px; }
+
 }
