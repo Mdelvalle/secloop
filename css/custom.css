@@ -1,25 +1,28 @@
-body {
-  background-color: #ff3300;
-  color: #00ccff; }
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 
-#soundcloud_widget {
-  padding-top: 100px; }
+body {
+  background-color: #FC9F5B;
+  color: #303036; }
+
+h1 {
+  font-size: 5em;
+  font-family: 'Monofett', cursive; }
 
 .nstSlider {
   width: 80%;
-  background: #ff3300;
-  border: 3px solid #00ccff; }
+  background: #303036;
+  border: 3px solid #303036; }
+
+.leftGrip, .rightGrip {
+  background: #00ccff !important;
+}
 
 .label {
-  position: relative;
-  font-size: 2em; }
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 80%; }
 
 .leftLabel, .rightLabel {
-  position: absolute; }
-
-.leftLabel {
-  text-indent: 10%;
-   }
-
-.rightLabel {
-  text-indent: 80%; }
+  color: #303036;
+}

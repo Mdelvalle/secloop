@@ -1,6 +1,6 @@
 /* Pick a section of a song from Soundcloud and loop it
  *
- * @author: Miguel Del Valle <mdelvalle@utexas.edu>
+ * @author: Miguel Del Valle <migdelv@gmail.com>
  *
  */
 
@@ -46,11 +46,14 @@ window.onload = function() {
           startPos = leftValue;
           endPos = rightValue;
 
-          $('.leftLabel').text(msToTime(startPos));
-          $('.rightLabel').text(msToTime(endPos));
+          $('.leftLabel').text(msToTime(startPos).slice(1));
+          $('.rightLabel').text(msToTime(endPos).slice(1));
         }
       });
     });
+  })
+  .catch(function(err) {
+    console.log('Error', err);
   });
 
   function msToTime(duration) {

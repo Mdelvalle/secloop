@@ -9,7 +9,7 @@
   -moz-border-radius: 10px;
   border-radius: 10px;
   position: relative;
-  width: 300px;
+  width: auto;
   height: 20px;
   background: #113344;
 }

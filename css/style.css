@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
 body {
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #ff3300;
-  color: #89e7ff;
+  background-color: #FC9F5B;
+  color: #303036;
   font-family: sans-serif; }
+
+h1 {
+  font-size: 10em;
+  font-family: 'Monofett', cursive; }
 
 #content {
   margin: 30px;;
   padding: 0;
   height: 1000px;
   text-align: center; }
-
-h1 {
-  font-size: 10em; }
 
 #info {
   padding: 0px 130px;
@@ -25,26 +28,37 @@ form {
   margin: auto;
   padding: auto;
   height: 300px;
-  width: 700px; }
+  }
 
 #userInput {
   margin-top: 20px;
   padding: 10px;
   height: 60px;
   width: 600px;
-  font-size: 3em;
+  font-size: 2em;
   background-color: #d8f7ff;
-  color: #006e89;
-  text-align: center; }
+  color: #303036;
+  text-align: center;
+  border-radius: 33px;
+  }
+
+#userInput:focus {
+  box-shadow: 0 0 1pt 1pt #303036; }
+
+#userInput:focus-visible {
+  outline: none; }
 
 #submit {
   margin-top: 100px;
-  height: 90px;
-  width: 140px;
-  font-size: 2.3em;
-  background-color: #ff3300;
-  color: #89e7ff;
-  border: 5px solid #89e7ff; }
+  height: 3.6em;
+  width: 3em;
+  font-size: 1.4em;
+  background-color: #FC9F5B;
+  color: #303036;
+  border: 3px solid #303036;
+  border-radius: 22px;
+  margin-left: 20px;
+  }
 
 
 @media (min-width: 1000px) {
@@ -65,9 +79,10 @@ form {
     font-size: 1.5em; }
   
   #submit {
-    margin-top: 30px; }
+    margin-top: 30px;
+    box-shadow: 3px 3px #000; }
     #submit:hover {
-     height: 100px;
-     width: 150px; }
+      opacity: 0.8;
+      box-shadow: 1px 1px #000; }
 
 }
